@@ -1,0 +1,153 @@
+html{
+	font-size: 18px;
+	background-color: #eee;
+}
+span{
+	font-size: 12px;
+	color: #666;
+}
+.header{
+	height: 130px;
+	line-height: 130px;
+}
+.header span{
+	font-size: 26px;
+/*	margin-left: 300px;*/
+}
+.header .go-login{
+	margin-left: 650px;
+	font-size: 20px;
+}
+.header .go-login > a{
+	font-size: 20px;
+	color: #ca5252;
+}
+.header .go-login > a:hover{
+	color: #ad4747;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px #cbc9c9;
+	background-color: #fff;
+}
+.nav{
+	margin-left: 342px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+.nav > ul > li{
+	text-align: center;
+	float: left;
+	height: 40px;
+	width: 158px;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	line-height: 40px;
+	color: #ccc;
+}
+.nav > ul > li:first-child{
+	background-color: #ca5252;
+	border: 1px solid #ca5252;
+	color: #fff;
+}
+.nav ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.form form .u-input{
+	width: 100%;
+	/*border: 1px solid;*/
+	line-height: 60px;
+}
+.form form .u-input > .u-label{
+	display: block;
+	float: left;
+	text-align: right;
+	height: 40px;
+	width: 340px;
+}
+.form form .u-input> .useremail,.form form .u-input> .passwd , .form form .u-input> .cofirmpasswd {
+	height: 40px;
+	width: 320px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	text-indent: 0.5em;
+}
+.form form .u-input> .yanzhengma{
+	height: 40px;
+	width: 320px;
+	font-size: 16px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	text-indent: 0.5em;
+}
+.form form .u-input> .phoneNo{
+	height: 40px;
+	width: 320px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	text-indent: 0.5em;
+}
+.form form .interPhone , .form form .kuaisu{
+	margin: 340px;
+}
+.form form .interPhone{
+	color: #4cb5ff;
+}
+
+.form form .u-input> .duanxinyzm{
+	height: 40px;
+	width: 200px;
+	font-size: 16px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	text-indent: 0.5em;
+
+}
+
+.form form .u-input> .yzmbtn{
+	height: 40px;
+	width: 110px;
+	font-size: 16px;
+	margin-bottom: 30px;
+	background-color: #4cb5ff;
+	color: #fff;
+	border:0;
+}
+.form form .u-input> .submit{
+	margin-left: 340px;
+	height: 40px;
+	width: 320px;
+	text-indent: 0.5em;
+	background-color: #ca5252;
+	border: 0;
+	color: #fff;
+	font-size: 18px;
+}
+.form form .u-input> .checkbox{
+	margin-left: 340px;
+}
+.form .footer-img{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.footer  p , .footer  p > a{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	margin: 5px 5px;
+}
+.footer .wrapper p > a:hover{
+	color:  #ca5252;
+

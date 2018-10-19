@@ -1,0 +1,18 @@
+html{
+	font: normal normal 14px 'Microsoft YaHei',sans-serif;
+}
+body ,ul,ol,dl,p，h1,h2,h3{
+	margin: 0;
+	padding: 0;
+
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+div{
+	box-sizing: border-box;
+}

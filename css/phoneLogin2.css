@@ -1,0 +1,123 @@
+.login{
+	height: 402px;
+	width: 386px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 50%;
+	margin-left: -193px;
+	top: 50%;
+	margin-top: -201px;
+}
+.wrapper{
+	width: 306px;
+	margin: 0 auto;
+}
+
+.login-style > ul > li{
+	float: left;
+	font-size: 18px;
+	width: 150px;
+	margin-top: 30px;
+	color: #999;
+}
+.login-style > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*.login-style > ul > li:visited{
+	color: #000;
+	cursor: pointer;
+}
+.login-style > ul > li:hover{
+	color: #b4a078;
+	cursor: pointer;
+}*/
+.login-style > ul > li:first-child{
+	padding-left: 10px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.login-style > ul > li:last-child{
+	padding-left: 55px;
+	box-sizing: border-box;
+	color: #999;
+}
+.login-style > ul > li:last-child a{
+	color: #999;
+}
+.login-style > ul > li:last-child a:hover{
+	color:#b4a078; 
+}
+
+.login .wrapper .login-form{
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 304px;
+	height: 304px;
+	/*border: 1px solid black;*/
+}
+.login .wrapper .login-form form .user,.login .wrapper .login-form form .passwd{
+	height: 40px;
+	width: 320px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.useYzm{
+	margin-top: 10px;
+	height: 20px;
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+
+}
+.login .wrapper .login-form form .user > label .myfont,
+.login .wrapper .login-form form .passwd > label .myfont{
+	color: #666;
+	font-size: 24px;
+	position: relative;
+	top: 4px;
+	border-right: 1px solid #ccc;
+	padding-right: 6px;
+}
+.login-form input{
+	height: 35px;
+	width: 270px;
+	margin-bottom: 30px;
+	border: 0;
+}
+.login .submit{
+	margin-top: 20px;
+	height: 40px;
+	width: 320px;
+	background-color: #b4a078;
+	color: #fff;
+
+}
+.login-footer{
+	height: 60px;
+	width: 100%;
+	background-color: #F5F3EF;
+	position: relative;
+	top: -57px;
+	padding-left: 32px;
+	line-height: 60px;
+}
+.login-footer label i{
+	font-size: 24px;
+	color: #666;
+	margin-right: 10px;
+}
+.login-footer .youxiang{
+	font-size: 12px;
+	margin-left: 35px;
+}
+.login-footer .forget{
+	font-size: 12px;
+	margin-left: 10px;
+}

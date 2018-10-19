@@ -1,0 +1,43 @@
+.wrap{
+	width: 1090px;
+	margin: 0 auto;
+}
+.xsg .xsg-hd{
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+.xsg .xsg-hd .f-left {
+	float: left;
+	line-height: 1;
+}
+.xsg .xsg-hd .f-left a h3{
+	font-size: 28px;
+}
+.xsg .xsg-hd .f-right{
+	float: right;
+	line-height: 1;
+}
+.xsg .xsg-hd .f-right .moreItems{
+	padding-top: 14px;
+	line-height: 1;
+	display: inline-block;
+}
+.xsg .xsg-hd::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.xsg .xsg-bd{
+	height: 377px;
+}
+.xsg .xsg-bd .m-left{
+	width: 224px;
+	height: 377px;
+	background-image: url(../images/xsg-bg.jpg);
+}
+.xsg .xsg-bd .m-right > ul >li{
+	float: left;
+	height: 189px;
+	width: 433px;
+}

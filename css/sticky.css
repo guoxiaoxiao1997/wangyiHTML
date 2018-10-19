@@ -1,0 +1,117 @@
+/*头部*/
+.header{
+			width: 1090px;
+			margin: 0 auto;
+			line-height: 3em;
+			overflow: visible;
+			border: 1px solid;
+}
+
+.yx-img{
+	height:90px;
+	padding-top: 30px;
+	padding-left: 35%;
+	margin-bottom: 30px;
+}
+
+.yx-img > .itxt{
+	width: 180px;
+	border: 0;
+	border-bottom: 1px solid #D8CEBC;
+	position: relative;
+	left: 200px;
+	/*top: -10px;*/
+}
+.yx-img > label > .sub{
+	position: relative;
+	left: 205px;
+	color: #D8CEBC;
+	font-size: 18px;
+	/*top: -30px;*/
+}
+.yx-img > label > .shopcar{
+	position: relative;
+	left: 215px;
+	color: #D8CEBC;
+	font-size: 18px;
+}
+.yx-img > .num{
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	position: relative;
+	left: 605px;
+	top: -40px;
+	background-color: #cd2443;
+	font-size: 12px;
+	color: #fff;
+}
+.yx-img > .num > span{
+	position: relative;
+	left: 6px;
+	top: -12px;
+}
+
+.nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav ul > li{
+	width: 80px;
+	text-align: center;
+	float: left;
+}
+.nav ul > li >a:hover{
+	border-bottom: 2px solid #b4a078;
+	color: #b4a078;
+}
+ .nav{
+	position: -moz-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 333;
+}
+/*.nav > li >a::after{
+	content: "";
+	height: 2px;
+	width: 2em;
+	background-color: #b4a078;
+	margin: 0 auto;
+	position: relative;
+	top: -0.5em;
+	display: none;
+}*/
+.nav ul > li:hover > a::after{
+	display: block;
+}
+.sub-nav{
+	position: absolute;
+	background-color: #ffffff;
+	width: 100%;
+	left: 0;
+	text-align: left;
+	display: none;
+	z-index: 1;
+}
+.sub-nav .wrap{
+	width: 1090px;
+	margin: 0 auto;
+}
+.nav  ul > li:hover > .sub-nav{
+	display: block;
+
+}
+.sub-nav > ul {
+	width: 1090px;
+	margin: 0 auto;
+}
+.sub-nav .wrap > ul > li{
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+.sub-nav .wrap > ul > li > a:hover{
+	color: #b4a078;
+}
